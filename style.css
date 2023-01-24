@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&family=Ibarra+Real+Nova&family=Josefin+Sans:ital,wght@1,300&family=Nunito+Sans:ital,wght@1,300&display=swap');
+
+*{
+    margin:  0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Edu QLD Beginner', cursive;
+    font-family: 'Ibarra Real Nova', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-weight: 300;
+    
+
+
+}
+
+html{
+    font-size: 30px;
+}
+
+.maindiv{
+    width: 100vw;
+    min-height: 45vw;
+    display: grid;
+    place-items: center;
+    background-color: darkcyan;
+}
+
+.innerdiv{
+    background-color:rgb(178, 245, 245) ;
+    padding: 30px 30px;
+    border-radius:16px;
+    width: 100%;
+    /* box-shadow: 5px 5px rgb(69, 69, 72), 10px 10px rgb(219, 237, 157), 15px 15px green; */
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}   
+    
+.innerdiv h2{
+    font-size: 30px;
+    font-weight: 100;
+    margin: 16px 0 30px 0;
+
+
+}
+
+.innerdiv li{
+    margin-top: 20px;
+    font-size: 20px;
+    list-style: none;
+
+}
+
+#submit, .btn{
+    /*padding: 5px 5px;
+    outline: none;
+    font-size: 20px;
+    font-size:20px ;
+    margin: auto;
+    display: flex;
+    border: none;
+    text-transform: uppercase;
+    background-color: rgb(14, 83, 140);
+    color: rgb(236, 238, 232);
+    margin-top: 20px;
+    */margin: auto;
+    display: flex;
+    font-size: 20px;
+    background-color:#0a0a23;
+    color: #fff;
+    border:none;
+    border-radius:10px;
+    padding:10px;
+    min-height:30px;
+    min-width: 10px;
+    background-color:#5981ee;
+    transition: 0.7s;
+
+}
+
+#submit:hover{
+    background-color: #0a0a23;
+}
+
+#showscore{
+    background-color: rgb(183, 244, 130);
+    margin-top: 10px;
+    padding: 5px 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius:10px;
+
+
+
+}
+
+
+#showscore h3{
+    font-size: 1rem;
+    text-align: center;
+}
+
+#showscore, .btn{
+    margin-top: 1rem;
+    background-color: hsl(199, 80%, 44%);
+    color: #0a0a23;
+}
+#showscore, .btn:hover{
+    
+    background-color: #81f7eb;
+    color: #0a0a23;
+}
+
+
+
+.score{
+    display: none;
+}
+
+
+
+
+
+
